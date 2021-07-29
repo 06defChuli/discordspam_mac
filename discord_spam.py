@@ -194,7 +194,7 @@ class User():
             time.sleep(0.2)
             text.send_keys(Keys.ENTER)
             print(f'Loops sent: {msg_sent}')"""
-
+time.sleep(5)
 os.system('clear')
 credentials = []
 user_file = open('./user.txt', 'r+')
@@ -311,6 +311,4 @@ def menu():
         else:
             pprint('Please enter a valid input')
             menu()
-time.sleep(5)
-os.system('clear')
 menu()
